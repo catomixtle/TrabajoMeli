@@ -1,0 +1,91 @@
+/* Estilos para la página de contacto */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Fondo gris claro */
+}
+
+header {
+  background-color: #b19cd9; /* Morado claro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  margin-bottom: 60px; /* Ajuste del margen inferior */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  color: #333; /* Texto gris oscuro */
+}
+
+p {
+  color: #666; /* Texto gris */
+}
+
+form {
+  background-color: #e6d5ff; /* Morado claro */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Borde gris */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #b19cd9; /* Morado claro */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #7e5aa3; /* Morado oscuro */
+}
+
+.container1{
+            border: 3px solid green;
+            border-radius: 10px;
+            width:375px;
+            height:200px;
+            background-color: black;
+            display: flex;
+            justify-content: rigth;
+            align-items: center;
+        }
+
+a {
+  color: #fff; /* Enlaces blancos */
+  text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+

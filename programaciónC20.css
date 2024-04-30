@@ -1,0 +1,39 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th,th{
+    border: 1px solid black;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    
+}
+th{
+    background-color: lightgrey;
+}
+.spacer{
+    background-color: lightgrey;
+}
+.logo {
+max-width: 100px;
+}
+.todos2{
+    text-align: center;
+    background: blue;
+}
+.slick-carousel img {
+    width: 1000%;
+    height: auto; /* Esto mantendrá la proporción de aspecto */
+}
+.logo2 {
+    width: 5%; /* Reducir el tamaño a la mitad */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+#piepag{
+width: 200%;
+heigth:600px;
+background-color:#030507;
+}
